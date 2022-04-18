@@ -9,7 +9,7 @@ class MyModel extends Model
     protected $table = 'project';
 	
 
-	
+	//to get alll data
 	public function getNews($slug = false)
 	{
 		if ($slug === false) {
