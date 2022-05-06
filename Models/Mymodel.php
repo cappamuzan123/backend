@@ -8,9 +8,12 @@ class MyModel extends Model
 {
     protected $table = 'project';
 	
+		
+	 protected $allowedFields = ['name', 'phone','people','hotel'];
+	
 
 	//to get alll data
-	public function getNews($slug = false)
+	public function getData($slug = false)
 	{
 		if ($slug === false) {
 			return $this->findAll();
