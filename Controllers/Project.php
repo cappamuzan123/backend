@@ -18,7 +18,7 @@ class Project extends BaseController
 		echo json_encode($data);
 
     }
-	// file to create 
+	// file to create each
 	public function save()
     {
 		
