@@ -18,7 +18,7 @@ class Project extends BaseController
 		echo json_encode($data);
 
     }
-	// file to create each
+	// file to create file class
 	public function save()
     {
 		
@@ -36,7 +36,7 @@ class Project extends BaseController
 		
 			
 	}
-	//to delete file component
+	//to delete file components
 public function cancel($id){
 		  $model = model(MyModel::class);
 		$response=$model->delete($id);
