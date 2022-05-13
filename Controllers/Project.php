@@ -3,7 +3,7 @@
 namespace App\Controllers;
 use App\Models\Mymodel;
 
-//to read date code
+//to read date code file
 class Project extends BaseController
 {
 
@@ -18,7 +18,7 @@ class Project extends BaseController
 		echo json_encode($data);
 
     }
-	// file to create file class mail
+	// file to create file 
 	public function save()
     {
 		
