@@ -36,7 +36,7 @@ class Project extends BaseController
 		
 			
 	}
-	//to delete file components
+	//to delete file name 
 public function cancel($id){
 		  $model = model(MyModel::class);
 		$response=$model->delete($id);
